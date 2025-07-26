@@ -1,0 +1,162 @@
+DONE
+----
+E 1. allow people to edit their personal info, so they can change names to Saif Saeed Shaheen
+E 1.5 also color race days differently (CHANGES FILE FORMAT)
+E 7.5. for search and any dialgo wtih those listboxes, allow a double click to pop up the day summary dlg
+2.5 add sick days (sick is mr. yuk) (CHANGES FILE FORMAT)
+E 14. add things for people to get more info about their workouts
+    . add information about estimated calories on a given run / bike / swim / lift / race
+E 2.75 more help dialogs, like one that explains all the icons w/ meanings
+E 16. Make Paypal link and put in about box 
+E 18. make the little rectangle animation opening thing optionally on/off, and definitely timed (CHANGES FILE FORMAT)
+E 14.75 - new icon, file format that is registered (.tlg), new splash screen
+E 14.3 random color generation
+H 7. big powerful search
+	    how to dialog
+	    somewhere in there i found a bug with && && && but i can't reproduce it
+M 8. date handling fixed, much better now (uses CDateTimeCtrl)
+M 3. need to make tlog open the files when user clicks in shell
+	- when triathlog doesn't run because a copy is already running, say something
+M 15. need to rewrite open/save b/c of new stuff
+	- sick for all workouts
+	- race day color
+	- rectangle animation timing
+	--- need to look for both .xml and .tlg, and if successfully read .xml, delete .xml and save .tlg
+E 19. also update menu part of help dlg
+H 17. incorporate new graphing components
+	  - whole thing basically works... would be nice to set up certain types better (smith/rose polar ones, 3d bar, etc)
+	  - need to get gigasoft subscription or whatever
+	  - pressing enter in edit controls in series 1 makes it disappear??  tried, no clue
+H 20. printing -- at least output in a text file so wordpad can print
+    . print forms of data to file (monthly, weekly, or daily, between any two dates)
+        . be able to specify which workouts to use, etc
+        . make it like the doctor's form, with it going all the way across and the notes at the bottom
+e 23 - run easy sizes are scrweed up in dialog
+e 27 - make the number of decimals to display on the calendar an option (default 1? i want it 2)
+e 23 - add mountain bike to cycling workout list
+e 24 - upcoming races now have three lines
+e 25 - upcoming workouts added
+e 26 - colors for upcoming races, workouts added
+e 32 - don't test for == NOGRAPHDATA, do a thing that looks for if it's within 1 of nographdata or something, because of floating pt errors
+e 26 - make wind/turbulence be none | light | medium | heavy | very heavy? (CHANGES FILE FORMAT)
+ e delete upcoming workouts should be possible... also don't let them put multiple upcoming workout/races?
+		don't allow multiple upcoming workout/races
+		change menu to read delete "something general" not delete workout (actually just make three separate menu items in both context and normal menu)
+e add ability to do swimming pace in min/100yards
+e 26 - make context menu gray stuff out when it's supposed to
+e 28 - make converter dlg copy, make sure others paste
+e 29 - make color option for text bg
+e 28 - put in convert ability in sheets
+H 10 also, dlgs need to be changed to use one edit per thing (not broken up)
+		race/course/location/bike/shoe summary dlgs
+		pr dialogs (both normal ones, and swim/track pr ones)
+		calorie dlg
+E 12 - maybe redo the spacing in dialogs, like make every up->down 7 exactly or something, make all dialogs same size if they should be
+	   make all text the same size as the combo/edit boxes they line up with, and then change text style to "center image" to make all line up
+	   maybe 7 spaces per?
+M 15 check tab order in all dialogs					
+		and get non-input controls out of tab order
+m 16 add 'data file' to everything, make sure it works, etc etc... then put in a thing to open the data in the program
+M - add time trial (wants things like aero bar checkboxes, probably just do interval dialog)
+e - add accelerators for all menu items, add it to menu text
+E - add injury tracking
+E - add intro dialog on add new user
+E 2. search through the notes in search dialog also
+
+TODO
+-----
+average pace wrong in week bike summary (see week of 9/24/04)
+in add user, not british vs metric, it's american vs metric
+retire running shoe doesn't work
+
+better search dialog, database type searches (database type file)
+import/export from csv?
+just more elegant approach in general..
+** make it wasy easier to look at day summaries... like make the thing modeless and you can just click on days and it'll update or something **
+
+bug in the triathlon day summary dialog, doesn't get the course right (look at beaver lake 2004, it says beaver lake 2005 and won't change back)
+
+1. the ability to copy days.  sometimes i put a workout in the wrong
+day, it would be nice to be able to copy it instead of delete and
+redo.
+
+2. add injured to the activity list.  i've been injured for the last
+week or so.  if i could just double click on the day and select injury
+day and not have to fill out the rest of the form that would be good.
+ (maybe other in the activity list, then "rest day", "injured" etc in the workout list for other)
+tim 
+
+3. search dilaog needs to be able to select based on location/course
+
+bug - search dialog input boxes can't do paces (6:30)... gotta be general, maybe change from number type to pace type, etc, depending on what the category is
+
+
+
+AT END
+------
+h test updated edit controls					    (done)
+h make sure to have accounted for all file changes  (done)
+E 19. also update menu part of help dlg             (done)
+
+M 18.2 need to write an installer this time around  (done)
+	
+	
+
+	
+on forums at letsrun, runnersworld
+on tucows (maybe around november 15), jumbo.com
+
+
+
+E 15. submit to places
+    . letsrun.com forum, runnersworld forum, mensracing forum, more forums
+    . submit to download.com, shareware.com, tucows.com, jumbo.com
+    . find more places to advertise, maybe advertise site too
+16 update website - better pics, no lime green text, paypal link
+
+Hey guys,
+
+I posted something last summer, last time I updated TriathLog.  There's been a big update this summer as well, so if you're looking for a free (absolutely no strings attached), well-tested (4000+ downloads), sophisticated training log, see what you think of mine.  I always listen to feature requests too, so odds are if it doesn't do something you want, I'll put it in.  
+
+It tracks pretty much everything me or the current users have thought of, it can analyze workout data loads of different ways, you can graph everything, and I've even been told that it looks pretty (but if you disagree, you can customize the interface).  It's at [link]http://www.people.fas.harvard.edu/~weil[/link], and click on the "code" link.  There are a bunch of screenshots, etc.  Also, for those who downloaded it last year and followed instructions to put some files here, some there, etc -- it now comes with a setup program that sets everything up for you.
+
+Anyway, let me know what you think!  Again, totally free, no strings attached.  Respond here or email me at weil [at] fas [dot] harvard [dot] edu if you have questions/concerns/praise/hate mail.
+
+Kevin
+
+TriathLog is a totally-free, no strings attached training log.  It tracks all manner of running, cycling, swimming, and strength work data.  It can analyze this data in many ways (day summary, week or month summary for each sport, multisport summary, location summary, race summary, shoe summary, PR summary, etc) and can graph any part of the data.  It is highly customizable software, and I am constantly upgrading it, so if you have a feature request, please email me and let me know! (email is in the about box)  You can also search through all the data you've entered to find a specific workout you did 3 years ago.  It was written for a friend and myself, and it's been useful to us (and the 4000+ people who have downloaded previous versions) so hopefully it can be useful to you.
+
+
+not in this version
+--------------------
+E 1. change wind/choppiness to "Conditions" or "Weather" and make it a writable text box?
+H 1. tip of the day dialog?
+E 5. add hover for day type info without using day summary
+H 2. different colors for each type of workout, color background for day depending on workouts (with gradient like in polar program?)
+H 1. Make it read and display POLAR data?
+H 2. graph with multiple axes like polar software
+M 3. icons on all buttons/menu items?
+M 2. make courses/locations retire-able, just like shoes/bikes are (CHANGES FILE FORMAT)
+H 3. print graphically (calendar w/ no buttons, etc)
+M 4. cut, copy, paste
+    . cut dialog just lets you hit checkboxes for the workotus of that day (have select all button)
+    . on paste, it just adds those days to the daylog (must alloc the daylog and alloc the new workouts, copy them)
+    . make sure to deal with pointers in clipboard and that mem
+E 6. help file with all the things and some beginning tutorials, from winhelp
+M 8. add "favorite workouts" thing in activity
+    . then the types would list them
+    . on select, you would see teh dialog with the default values, which you could change
+    . be able to view all favorite workouts, delete, etc
+E 9. consider adding "rest day" type of workout... details to be given
+E 10. add fartlek workout to running stuff, maybe negative split workout, time trial, recovery?
+H - change all poor if(x != NULL) to just ASSERT(x != NULL), get rid of thousands of levels (also the levels should go away as
+   the controls get replaced by better ones)
+
+
+
+
+
+
+mailing list is:
+thaddeus@zipcon.net, bazick@fas.harvard.edu, bomash@fas.harvard.edu, easton_cr@hotmail.com,
+jchauser@tmklawpc.com, broempie@hotmail.com, bartjr@huthwaitegroup.com, the_spe@yahoo.com, timblackwell@gmail.com, patrick.cooper@vanderbilt.edu (supacoopa5), glennk5@yahoo.com
