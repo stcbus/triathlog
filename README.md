@@ -8,3 +8,6 @@ spirit of open source and cool programs alive.
 
 Hopefully someone can find some use for it, or at least use it to learn and check out an older Windows
 program from a historial perspective. The animations are definitely broken on modern Windows :)
+
+
+![screenshot](https://github.com/user-attachments/assets/841eaaaa-251a-49ad-8478-327d81e91cc5)
