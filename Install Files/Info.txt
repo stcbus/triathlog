@@ -1,0 +1,17 @@
+TriathLog 4.0
+by Kevin Weil
+September 2004
+
+PLEASE READ THIS TO GET STARTED; IT'S SHORT, I PROMISE.
+
+
+This program is free, with no strings attached, and will always be so.  I hope you like it. 
+
+If you have used TriathLog before, first go to the file menu to convert your training log from the old version.
+
+If this is your first time with TriathLog, select "Add User" on the dialog that pops up when the program opens, and follow the directions from there.
+
+By the way:
+1. For now, check www.people.fas.harvard.edu/~weil for updates.  Generally updates come during the summer, but smaller updates containing bug fixes are released year-round.  Hopefully in the future there will be a www.triathlog.com that is dedicated to the program, but I need some financial help (see Help | About in the menu) before that is possible.  If you want to be made aware of updates as they are released, drop me a line at weil@fas.harvard.edu and I'll add you to the mailing list.  This is not a high volume list -- I generally send out 4-5 emails a year over it -- so don't worry about it cluttering up your inbox.
+
+2. Please send me any and all feedback (good, bad, bugs you find, anything) so I can continue to improve the program.
